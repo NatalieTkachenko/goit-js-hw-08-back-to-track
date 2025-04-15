@@ -1,0 +1,60 @@
+/* positioning
+box-modelling
+typography
+visuals
+animation
+miscellaneous*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+ max-width: 1440px;
+ margin: 0 auto;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+.gallery {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 10px;
+
+margin: 0;
+
+ list-style: none;
+}
+
+.gallery-item {
+  max-width: 360px;
+  max-height: 200px;
+  overflow: hidden;
+
+  margin: 0;
+
+
+
+}
+
+
+
+/*<li class="gallery-item">
+  <a class="gallery-link" href="large-image.jpg">
+    <img
+      class="gallery-image"
+      src="small-image.jpg"
+      data-source="large-image.jpg"
+      alt="Image description"
+    />
+  </a>
+</li>
+*/
